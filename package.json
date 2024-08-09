@@ -1,0 +1,23 @@
+{
+  "name": "qld_adv_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.2",
+    "@faker-js/faker": "^8.4.1",
+    "cypress": "^13.13.2",
+    "esbuild": "^0.23.0"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.1",
+    "qld_adv_api": "file:"
+  }
+}
